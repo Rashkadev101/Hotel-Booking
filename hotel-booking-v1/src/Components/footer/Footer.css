@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+   
+}
+.footer li:hover {
+    text-decoration: underline;
+    color: tomato;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.fLists {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.fList {
+    list-style: none;
+    padding: 0;
+}
+.fListItem {
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+
+}
+.fListItemTexel{
+    font-size: 12px;
+    color: rgb(110, 166, 211);
+}
+.fListItemTexel:hover {
+    color: #003580;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}

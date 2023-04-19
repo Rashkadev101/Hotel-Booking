@@ -1,0 +1,91 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+@media only screen and (max-width: 600px)  {
+    .navbar {
+      background-color: rgb(44, 36, 103);
+      width: 100%;
+    }
+    .navRegister,.navLogin {
+        display: none;
+       
+    }
+    .logo {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+  }
+  @media (max-width: 640px) {
+      .header {
+          text-align: center;
+          font-size: 12px;
+      }
+      .headerList {
+          flex-direction: column;
+          display: none;
+         
+
+      }
+      .headerListItem {
+          flex-direction: column;
+          margin: 0.8em 0;
+        
+
+      }
+      .headerOpenMenu {
+        display:inline;
+        cursor: pointer;
+        font-size: 24px;
+       
+
+      }
+      .headerSearch {
+         display: none;
+        
+
+      }
+      .pList {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .pListImg {
+        height: 50vh;
+      }
+      .featured {
+        display: flex;
+        flex-direction: column;
+      }
+      .fp {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .email {
+        display: flex;
+        flex-direction: column;
+      }
+      .listYourPropertyItem {
+       display: none;
+
+      }
+      .footer {
+        background-color: #191944;
+        color: #fff;
+    
+      }
+      .fListItem
+        {
+        color: #fff;
+      }
+     
+
+  }

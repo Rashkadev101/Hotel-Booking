@@ -1,0 +1,64 @@
+.homeTitle {
+    width: 1024px;
+    font-size: 20px;
+}
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}  
+.featuredItem {
+    position: relative;
+    color:rgb(255, 255, 255);
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.featuredImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.featuredTitle {
+    position: absolute;
+    top: 100px;
+    padding-left: 10px;
+    color: rgb(221, 219, 219);
+    
+}
+.decale {
+    width: 40px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.jibouti {
+    width: 40px;
+    position: relative;
+    top: 60px;
+    left: 230px;
+    display: flex;
+    align-items: center;
+}
+.Damal {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    object-fit: cover;
+
+}

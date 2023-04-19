@@ -1,0 +1,117 @@
+.loginContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.formPic {
+    width: 30%;
+    height: 70vh;
+    background-image:url("https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.loginWrapper {
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.loginTitle>h2 {
+    position: relative;
+    top: -30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.loginPar {
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 50%;
+
+}
+.loginIcons {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: -20px;
+    
+}
+.link {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 20px;
+    padding: 6px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.boxOpen {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 20px;
+    padding: 6px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+}
+.save {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 20px;
+    padding: 6px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.inputName, .inputText, .inputPass {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid gray;
+    opacity: 50%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.inputName, .inputText, .inputPass:hover {
+    outline: none;
+}
+.iconUser, .iconEnvelope, .iconLock {
+    padding-right: 10px;
+    opacity: 50%;
+
+}
+.btnLoginRegister {
+    width: 265px;
+    padding: 7px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgb(26, 31, 34);
+    background-color: rgb(6, 255, 172);
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+    

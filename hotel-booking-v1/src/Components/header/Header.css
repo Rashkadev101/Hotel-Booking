@@ -1,0 +1,204 @@
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url("https://wallpaperaccess.com/full/6688225.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: #fff;
+    height: 70vh;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+.headerOpenMenu {
+    display: none;
+}
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerListItem:hover {
+    color: #4f4fe0;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.headerListItem.active {
+    padding: 10px;
+    border: 1px solid #191944;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+.headerListItem.active:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    color: #4f4fe0;
+    text-decoration: underline;
+    border: 0;
+}
+.headerDesc {
+    margin: 20px 0px;
+}
+.btnheader {
+    font-weight: 600;
+    padding: 10px;
+    border: 0;
+    background-color:#fff;
+    color: #4f4fe0;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btnSearch {
+    background-color: #4f4fe0;
+    color: #fff;
+    border: 0;
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btnSearch:hover {
+    background-color: #191944;
+    color: #fff;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.btnheader:hover {
+    background-color: #4f4fe0;
+    color: #fff;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.headerSearch {
+    max-width: 1024px;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #191944;
+    bottom: -25px;
+    background-color: #fff;
+    color: gray;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  
+}
+.headerIcon {
+    color: gray;
+    padding: 10px;
+}
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+   
+   
+   
+}
+.headerSearchInput {
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    text-transform: capitalize;
+    
+}
+.date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+/*options*/
+.options {
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    color: rgb(144, 144, 144);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, 
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    z-index: 2;
+}
+.optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #191944;
+}
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #191944;
+    border: 1px solid tomato;
+    cursor: pointer;
+}
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+}

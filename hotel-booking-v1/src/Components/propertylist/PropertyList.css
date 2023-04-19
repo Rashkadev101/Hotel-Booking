@@ -1,0 +1,60 @@
+.pList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pListItem {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.pListImg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.pListTitle>h1 {
+    font-size: 18px;
+}
+.pListTitle>h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.pListTitle>h1:hover {
+    color: tomato;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.pListTitle>h3:hover {
+    color: tomato;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    text-decoration: underline;
+}
+.propStar {
+    color: #4f4fe0;
+    font-size: 14px;
+    position: relative;
+    top: -7px;
+    padding: 2px;
+
+
+}
+.pListStar {
+    position: relative;
+    top: -14px;
+    left: 5px;
+}

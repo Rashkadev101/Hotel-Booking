@@ -1,0 +1,142 @@
+//Header.js
+/*
+import './Header.css'
+import { faBed, faCalendarDays, faCar, faPerson, faPlane, faSwimmingPool, faTaxi } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+const Header = () => {
+  return (
+      <div className="header">
+      <div className="headerContainer">
+    <div className="headerList">
+    <div className="headerListItem active">
+    <FontAwesomeIcon icon={faBed} />
+    <span>Stays</span>
+    </div>
+    <div className="headerListItem">
+    <FontAwesomeIcon icon={faPlane} />
+    <span>Flights</span>
+    </div>
+    <div className="headerListItem">
+    <FontAwesomeIcon icon={faCar} />
+    <span>Car rentals</span>
+    </div>
+    <div className="headerListItem">
+    <FontAwesomeIcon icon={faSwimmingPool} />
+    <span>Attractions</span>
+    </div>
+    <div className="headerListItem">
+    <FontAwesomeIcon icon={faTaxi} />
+    <span>Airport taxis</span>
+    </div>
+    </div>
+    <h1 className="headerTitle"> A lifetime of discounts? It's Genius.</h1>
+    <p className="headerDesc">
+        Get rewarded for you travels - unlock instant saving of 40% or more
+        with a free Rashkabooking account
+    </p>
+    <button className="btnheader">Sign in / Register</button>
+    <div className="headerSearch">
+        <div classname="headerSearchItem">
+            <FontAwesomeIcon icon={faBed} className="headerIcon"/>
+            <input type="text" placeholder="where are you going?" className="headerSearchInput"/>
+        
+        </div>
+        <div classname="headerSearchItem">
+            <FontAwesomeIcon icon={faCalendarDays} className="headerIcon"/>
+            <span className="headerSearchText"> date to date</span>
+        
+        </div>
+        <div classname="headerSearchItem">
+            <FontAwesomeIcon icon={faPerson} className="headerIcon"/>
+            <span className="headerSearchText">7 adults 4 children 3 room</span>
+        
+        </div>   
+        <div classname="headerSearchItem">
+            <button className="btnheader">Search</button>
+        </div>
+    </div>
+    </div>
+    </div>
+  )
+}
+
+export default Header
+
+*/
+==========================
+///Header.css
+/*
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #191944;
+    color: #fff;
+    position: relative;
+}
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin:20px 0px 100px 0px ;
+}
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerListItem.active {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.headerDesc {
+    margin: 20px 0px;
+}
+.btnheader {
+    font-weight: 500;
+    padding: 10px;
+    color: #fff;
+    background-color: tomato;
+    border: 0;
+    cursor: pointer;
+}
+.headerSearch {
+    max-width: 1024px;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid  tomato;
+    background-color: #fff;
+    bottom: -25px;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.headerIcon {
+    color: lightgrey;
+}
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput {
+    border: 0;
+    outline: none;
+}
+*/

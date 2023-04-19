@@ -1,0 +1,99 @@
+.ListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.ListWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.ListSearch {
+    flex:1;
+    background-color: tomato;
+    padding: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.LsTitle {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.LsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.LsItem>label {
+    font-size: 13px;
+    font-weight: 400;
+}
+.LsItem>input {
+    height: 30px;
+    padding:5px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.LsItem>span {
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.LsOptions {
+    padding: 10px;
+}
+.LsOptionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 12px;
+
+}
+.LsOptionInput {
+    width: 50px;
+}
+.ListSearch>button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #191944;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+     cursor: pointer;
+}
+
+.ListResult {
+    flex: 3;
+}
